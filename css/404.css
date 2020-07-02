@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Recursive";
+  src: url("other/RecMono-Linear-1.52.ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Recursive";
+  src: url("other/RecMono-LinearItalic-1.52.ttf");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Recursive";
+  src: url("other/RecMono-LinearBold-1.52.ttf");
+  font-style: oblique;
+}
+
+#main {
+  font-family: "Recursive", monospace;
+  font-size: 30px;
+  text-align: center;
+  color: blue;
+  margin: 50px;
+}
+
+.desc {
+  font-family: "Recursive", monospace;
+  text-align: center;
+}
