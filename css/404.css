@@ -17,11 +17,11 @@
 }
 
 #main {
-  font-family: "Recursive", monospace;
-  font-size: 30px;
   text-align: center;
+  font-size: 60px;
   color: blue;
   margin: 50px;
+  font-family: "Recursive";
 }
 
 .desc {
