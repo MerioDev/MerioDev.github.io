@@ -20,7 +20,8 @@
   font-family: "Recursive", monospace;
   font-size: 30px;
   text-align: center;
-  font-color: blue;
+  color: blue;
+  margin: 50px;
 }
 
 .desc {
