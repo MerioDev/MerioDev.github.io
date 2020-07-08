@@ -1,10 +1,21 @@
+@font-face {
+  font-family: "Recursive";
+  src: url("../other/RecMono-Linear-1.52.ttf");
+}
+
 #main {
   text-align: center;
   font-size: 60px;
-  color: blue;
+  color: cyan;
   margin: 50px;
 }
 
 .desc {
   text-align: center;
+  color: white;
+}
+
+body {
+  font-family: "Recursive", monospace;
+  background-color: black;
 }
