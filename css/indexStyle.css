@@ -3,43 +3,64 @@
   src: url("../other/RecMono-Linear-1.52.ttf");
 }
 
-h1 {
+@media (prefers-color-scheme: dark) {
+  :root {
+    --visited: lightgreen;
+    --text: white;
+    --background: black;
+    --heading: lightblue;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --visited: #278827;
+    --not-visited: hotpink;
+    --text: black;
+    --background: white;
+    --heading: #3eb7de;
+  }
+}
+
+body {
+  background-color: var(--background);
   font-family: "Recursive";
+  overflow: hidden;
+  color: var(--text);
+  text-align: left;
+}
+
+h1 {
+  color: var(--heading);
+  margin: 30px;
+  padding: 15px;
   font-size: 35px;
   text-align: center;
-  margin: 30px;
-  border-bottom: 3px solid black;
-  padding: 15px;
+  border-bottom: 3px solid var(--text);
 }
 
 ul {
-  text-align: left;
   list-style-type: none;
-  font-family: "Recursive";
 }
 
 li {
   margin-bottom: 10px;
-  color: white;
 }
 
 a:visited {
-  color: lightgreen;
+  color: var(--visited);
 }
 
 a {
+  opacity: 70%;
   text-decoration: none;
-  font-weight: bolder;
+  font-weight: lighter;
   font-size: 1em;
-  transition: font-size 0.5s ease-in-out;
+  transition: font-size 0.5s ease-in-out, opacity 0.5s;
 }
 
 a:hover {
+  opacity: 100%;
+  font-weight: bold;
   font-size: 1.25em;
-}
-
-body {
-  background-color: black;
-  overflow: hidden;
-  color: lightcyan;
 }
