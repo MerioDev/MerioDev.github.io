@@ -1,0 +1,1 @@
+console.log('%cThis website was styled by DerpehDoge. Also, welcome to the dev console.', 'font-size: 2em; color: limegreen; opacity: 70%;');
