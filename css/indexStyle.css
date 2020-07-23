@@ -94,3 +94,9 @@ a:hover {
 ::-webkit-scrollbar-thumb:hover {
   background-color: hue-rotate(90deg);
 }
+
+footer {
+  text-align: center;
+  color: gray;
+  font-size: 9px;
+}
