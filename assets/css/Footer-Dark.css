@@ -88,3 +88,8 @@
   margin-bottom: 0;
 }
 
+a.noHover {
+  color: white;
+  text-decoration: none;
+}
+
