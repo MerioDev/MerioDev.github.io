@@ -87,10 +87,17 @@ a:hover {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
+  transition: all ease-in-out .5s;
   background: var(--sidescroll);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background-color: hue-rotate(90deg);
+}
+
+footer {
+  text-align: center;
+  color: gray;
+  font-size: 9px;
 }
